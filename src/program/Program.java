@@ -47,7 +47,8 @@ class Program {
             double valuePerHour = sc.nextDouble();
             System.out.print("Duration (hours): ");
             int hour = sc.nextInt();
-                    
+            HourContract contract = new HourContract(contractDate, valuePerHour, hour); 
+            worker.addContract (contract);
         }
         sc.close();
     }
