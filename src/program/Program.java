@@ -50,6 +50,14 @@ class Program {
             HourContract contract = new HourContract(contractDate, valuePerHour, hour); 
             worker.addContract (contract);
         }
+        
+        System.out.println();
+        System.out.print(" Enter month and yer to calculate income (MM/YYYY): ");
+        String montAndYear = sc.next();
+        int month = Integer.parseInt(montAndYear.substring(0,2));
+        int Year = Integer.parseInt(montAndYear.substring(3));
+        
+        
         sc.close();
     }
     
