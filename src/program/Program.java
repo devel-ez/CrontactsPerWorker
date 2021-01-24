@@ -6,6 +6,7 @@
 package program;
 
 import entities.Departament;
+import entities.HourContract;
 import entities.Worker;
 import entities.enums.WorkerLevel;
 import java.text.ParseException;
@@ -41,8 +42,12 @@ class Program {
         for (int i =1; i<=n;i++){
             System.out.println("Enter contract #" + i + "data:");
             System.out.print("Date DD/MM/YYYY: ");
-            Date contractdate =  sdf.parse(sc.next());
-            /*sadfasdfsafsdfsadfsaf*/
+            Date contractDate =  sdf.parse(sc.next());
+            System.out.print("Value Per Hour: ");
+            double valuePerHour = sc.nextDouble();
+            System.out.print("Duration (hours): ");
+            int hour = sc.nextInt();
+                    
         }
         sc.close();
     }
