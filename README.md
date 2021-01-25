@@ -16,3 +16,5 @@
 
 
 ![Entidades](https://github.com/devel-ez/CrontactsPerWorker/blob/master/entitiese1.png)
+
+![Preenchimento](https://github.com/devel-ez/CrontactsPerWorker/blob/master/preenchimento%20esperado.png)
