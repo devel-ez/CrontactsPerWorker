@@ -9,9 +9,9 @@ Conceitos aplicados:
 * Simple Date Fomart;
 * Substring;
 * Adicionar e remover objetos de uma lista;
-* Construtores
+* Constructor;
 * Getters and Setters;
-* Calendar;
+* Calendar
 
 
 
