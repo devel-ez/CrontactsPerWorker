@@ -3,6 +3,8 @@
 
 #### Conceitos aplicados:
 
+* Classes;
+* Objetos;
 * Scanner;
 * Enum;
 * Composição;
