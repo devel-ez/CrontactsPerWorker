@@ -1,7 +1,7 @@
 # CrontactsPerWorker
 ### Programa para cadastro de contratos. Exercício do professor Nelio Alves.
 
-##### Conceitos aplicados:
+#### Conceitos aplicados:
 
 * Scanner;
 * Enum;
