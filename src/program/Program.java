@@ -27,7 +27,7 @@ class Program {
         
         System.out.print("Enter departament's name: ");
         String departamentName = sc.nextLine();
-        System.out.print("Enter worker data: ");
+        System.out.println("Enter worker data: ");
         System.out.print("Name: ");
         String workerName = sc.nextLine();
         System.out.print("Level: ");
@@ -52,11 +52,13 @@ class Program {
         }
         
         System.out.println();
-        System.out.print(" Enter month and yer to calculate income (MM/YYYY): ");
-        String montAndYear = sc.next();
-        int month = Integer.parseInt(montAndYear.substring(0,2));
-        int Year = Integer.parseInt(montAndYear.substring(3));
-        
+        System.out.print("Enter month and yaer to calculate income (MM/YYYY): ");
+        String monthAndYear = sc.next();
+        int month = Integer.parseInt(monthAndYear.substring(0,2));
+        int year = Integer.parseInt(monthAndYear.substring(3));
+        System.out.println("Name:" + worker.getName() );
+        System.out.println("Departament: " + worker.getDepartament().getName());
+        System.out.println("Income for: " + monthAndYear + ": " + String.format("%.2f", worker.income(year, month)));
         
         sc.close();
     }

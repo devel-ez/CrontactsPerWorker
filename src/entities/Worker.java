@@ -76,7 +76,7 @@ public class Worker {
     public void removeContract(HourContract contract) {
         contracts.remove(contract);
     }
-    public void income (int year, int month){
+    public Double income (int year, int month){
         double sum = baseSalary;
         Calendar cal = Calendar.getInstance();
         for(HourContract c : contracts){
@@ -86,7 +86,7 @@ public class Worker {
             if(year == c_year && month == c_month){
                 sum += c.totalValue();
             }
-        }
+        }return sum;
     }
     
    
